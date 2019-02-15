@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/output.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="javascript/scripts.js"></script>
+    <title>REI Clone</title>
+  </head>
+  <body>
+    <div class="nav">
+      <div id="navBar">
+        <ul>
+          <li>SHOP REI</li>
+          <li>REI OUTLET</li>
+          <li>USED GEAR</li>
+          <li>REI ADVENTURES</li>
+          <li>CLASSES & EVENTS</li>
+          <li>EXPERT ADVICE</li>
+          <li>CO-OP JOURNAL</li>
+          <li>GET OUTSIDE</li>
+        </ul>
+      </div>
+      <div id="searchLayer">
+        <div id="searchContent">
+          <img src="img/reiLogo.png" alt="REI Logo">
+          <div class="headerCol">
+            <div id="searchBar">
+              <input type="text" placeholder="Search for Great Gear and Clothing">
+              <a href="#">SIGN IN</a>
+              <a href="#">STORES</a>
+              <a href="#">CART</a>
+            </div>
+            <ul>
+              <li>Camp & Hike</li>
+              <li>Climb</li>
+              <li>Cycle</li>
+              <li>Padde</li>
+              <li>Run</li>
+              <li>Snow</li>
+              <li>Travel</li>
+              <li>Yoga</li>
+              <li>Men</li>
+              <li>Women</li>
+              <li>Kids</li>
+              <li>Deals</li>
+              <li>More</li>
+              <li id="outletNav">REI OUTLET</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="popUp">
+        <p class="popup-text">Hey members! <strong>Earn a $20 bonus card</strong> when you spend $100 thru February 18. <a href="#">Details</a>
+      </div>
+    </div>
+
+    <div class="saleBanner">
+      <div class="backgroundStars">
+        <img src="img/starsBg.png" alt="Stars">
+        <img src="img/saleBigImg.png" alt="Clearance Imgage" class="saleImage">
+      </div>
+
+
+    </div>
+
+    <div class="saleItems">
+      <div class="items">
+        <img src="img/jacket.jpg" alt="">
+        <p>Up to 30% off Patagonia gear & clothing</p>
+      </div>
+      <div class="items">
+        <img src="img/backpack.jpg" alt="">
+        <p>Up to 50% off REI Co-op brand gear and clothing</p>
+      </div>
+      <div class="items">
+        <img src="img/boot.jpg" alt="">
+        <p>Up to 50% off winter boots, slippers, casual shoes & more footwear</p>
+      </div>
+      <div class="items">
+        <img src="img/tent.jpg" alt="">
+        <p>Up to 50% off gear for camping and hiking</p>
+      </div>
+    </div>
+
+    <div class="outlet">
+      <div class="reiOutlet">
+        <img src="img/outletJacket.jpg" alt="Red Jacket" id="redJacket">
+        <div class="text">
+          <img src="img/download-4.svg" alt="REI OUTLET">
+          <h2>Save 50% or more on fresh deals</h2>
+          <p> Online only, get first dibs on these just-reduced items. Shop early for the best selection.</p>
+          <button id="reiBtn">Shop REI Outlet</button>
+
+        </div>
+      </div>
+      <div class="outletSection" id="travel">
+        <img src="img/kilimanjaro.jpg" alt="Group On Kilimanjaro">
+        <div id="kilText">
+          <h1>Travel unforgettable places. With Us.</h1>
+          <p>Adventrue has arrived this year with 200+ trips around the world for every skill level and interest</p>
+          <button class="otltBtn">Explore our trips</button>
+        </div>
+      </div>
+      <div class="outletSection" id="skiing">
+        <div id="skiText">
+          <h2>MEMBER EXCLUSIVE</h2>
+          <h1>Members, save up to 35% on selected lift tickets</h1>
+          <p>Not a member? No worries! Get the discount when you <a href="#">add a $20 membership to your cart.</a></p>
+          <button class="otltBtn">Shop-lift tickets</button>
+        </div>
+        <img src="img/skiing.jpg" alt="Skier and Snowboarder">
+      </div>
+      <div id="orderOnline">
+        <h2>Order online. Pick up in store. Get outside.</h2>
+        <h3>Now all in the same day. <a href="#">Get the details</a>
+      </div>
+    </div>
+
+    <div class="trendingNow">
+      <h2>Top sellers in your area</h2>
+      <div class="trending">
+
+        <div class="trendingItems">
+          <img src="img/lawnChair.jpg" alt="Picture of a Lawn Chair">
+          <h3>REI Co-op Flexlite Air Chair</h3>
+          <h3>$99.95</h3>
+        </div>
+        <div class="trendingItems">
+          <img src="img/tent2.jpg" alt="Picture of a tent">
+          <h3>REI co-op Quarter Dome SL 2 Tent</h3>
+          <h3>$99.95</h3>
+        </div>
+        <div class="trendingItems">
+          <img src="img/longUnderwear.jpg" alt="Patagonia long underwear">
+          <h3>Patagonia Capilene Lightweight Long Underwear Crew Top-Men's</h3>
+          <h3>$33.93</h3>
+        </div>
+        <div class="trendingItems">
+          <img src="img/footPrint.jpg" alt="REI co-op Quarter Dome SL 2 Footprint">
+          <h3>REI co-op Quarter Dome SL 2 Footprint</h3>
+          <h3>$49.95</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="categories">
+      <div class="brandNames">
+        <div id="upperRow">
+          <div class="top-categories">
+            <h2>Shop top categories</h2>
+            <h3>Fleece Jackets</h3>
+            <h3>Down Jackets</h3>
+            <h3>Rain Jackets</h3>
+            <h3>Snowshoes</h3>
+            <h3>Ski Goggles</h3>
+            <h3>Ski Boots</h3>
+          </div>
+          <div class="brands-we-love">
+            <h2>Shop brands we love</h2>
+            <h3>Patagonia</h3>
+            <h3>The North Face</h3>
+            <h3>Marmot</h3>
+            <h3>Arc'teryx</h3>
+            <h3>Black Diamond</h3>
+            <h3>Osprey</h3>
+            <h3>Sorel</h3>
+            <h3>MSR</h3>
+          </div>
+        </div>
+          <img src="https://www.rei.com/assets/homepage/top-categories-and-brands/image-1/live.jpg" alt="Guy Settimg up Tent outside in wilderness" id="setting-up-tent">
+        </div>
+        <div id="lowerRow">
+          <img src="img/rockClimbing.jpg" alt="Man Rock Climbing" id="rockClimbing">
+          <img src="img/coupleandDog.jpg" alt="Couple and their dog" id="coupleandDog">
+          <img src="img/hikingonMountain.jpg" alt="Hiking on Mountain" id="hikingonMountain">
+        </div>
+    </div>
+  </div>
+
+  <div class="giftCard">
+    <div class="cardPic">
+      <img src="img/card.jpg" alt="REI GiftCard">
+    </div>
+    <div class="giftCardInfo">
+      <h2>You could earn a $100 REI gift card AND help the outdoors</h2>
+      <h3>Apply for the REI Co-op World Mastercard® and you'll earn a $100 REI gift card upon approval, activation and purchase within 60 days. Plus, REI will make a donation to the National Forest Foundation every time you make a purchase with your card. <a href="#">Learn more</a></h3>
+    </div>
+    <div class="trees">
+      <!-- <img src="img/treeleft.svg" alt="Tree on the left" class="svgTrees"> -->
+      <h3>How are we doing?</h3>
+      <h3><a href="#">Give us feedback </a>on this page.</h3>
+      <!-- <img src="img/treeRight.svg" alt="Tree on the right" class="svgTrees"> -->
+
+    </div>
+
+    </div>
+
+
+
+  <div class="signUp">
+    <h1>Sign up for REI emails</h1>
+    <h2>Co-op offers, events & cool new gear</h2>
+    <label for="signUpEmail" id="signUpEmail">Email</label>
+    <input type="text" placeholder="Enter your email address" id="emailAddress">
+    <button type="button" name="button">Sign me up!</button>
+  </div>
+
+
+  <div class="footer">
+    <h2>BECOME A MEMBER</h2>
+    <h2>WHERE-TO-GO WITH MAPS & MORE</h2>
+    <div class="topFooter">
+      </div>
+      <div class="who">
+        <h2>WHO WE ARE</h2>
+        <h3>At REI, we believe that a life outdoors is a life well lived. We've been sharing our passion for the outdoors since 1938. <a href="#">Red our story.</a></h3>
+      </div>
+      <div class="becomeMember">
+        <h2>BECOME A MEMBER</h2>
+        <h3>Join the REI Co-op community to get an annual dividend, access exclusives and give back. Lifetime membership is just $20.  <a href="#">Learn more and join us</a></h3>
+      </div>
+      <div class="where">
+        <h2>WHERE-TO-GO WITH MAPS & MORE</h2>
+        <h3>Free, community-built maps and resources connect you and your outdoor passion to trails and routes. <a href="#">Get the guides then go!</a></h3>
+      </div>
+      <div class="who">
+        <h2>APPLY FOR REI CO-OP MASTERCARD®</h2>
+        <h3>Earn a $100 REI Gift Card when you apply, get approved and make any purchase within 60 days of card approval. <a href="#">.Details</a></h3>
+        <h3>Have it? <a href="#">Manage Your Card</a></h3>
+      </div>
+    </div>
+
+    <div class="middleFooter">
+      <div>
+        <div class="footerleft">
+          <h3 class="stay">Your Online Accounts</h3>
+          <h3 class="stay">Purchase Status</h3>
+          <h3 class="stay">Shipping Info</h3>
+          <h3 class="stay">Return Policy</h3>
+          <h3 class="stay">Membership</h3>
+          <h3 class="hideSmall">Find Member Number</h3>
+          <h3 class="hideSmall">Annual Dividend Lookup</h3>
+        </div>
+        <div class="ftrSecondLeft">
+          <h3 class="stay">Expert Advice</h3>
+          <h3 class="stay">Classes & Outings</h3>
+          <h3 class="hideSmall">Store Events</h3>
+          <h3 class="stay">REI Adventures Trips</h3>
+          <h3 class="stay">Co-op Journal</h3>
+          <h3 class="stay">Camping Project</h3>
+          <h3 class="stay">Find Trails</h3>
+        </div>
+        <div class="ftrSecondRight">
+          <h3 class="stay">Gift Cards</h3>
+          <h3 class="hideSmall">Gift Registry</h3>
+          <h3 class="stay">Wish Lists</h3>
+          <h3 class="hideSmall">Coupons, Rebates, & Discounts</h3>
+          <h3 class="hideSmall">Free Shipping Details</h3>
+        </div>
+        <div class="footerRight">
+          <h3 class="stay">About REI</h3>
+          <h3 class="stay">Stewardship</h3>
+          <h3 class="stay">Jobs</h3>
+          <h3 class="hideSmall">Newsroom</h3>
+          <h3 class="stay">Technology Blog</h3>
+          <h3 class="stay">Store Locator</h3>
+          <h3 class="contactList">Email Us</h3>
+          <h3 class="contactList">Live Chat</h3>
+          <h3 class="contactList">Help Center</h3>
+        </div>
+      </div>
+      <div class="contact">
+        <div>
+          <h2><a>1-800-426-4840</a></h2>
+          <p>Mon-Fri, 5am-10pm PT</p>
+          <p>Sat-Sun, 6am-9pm PT</p>
+        </div>
+        <div>
+          <h2><a>Live Chat</a></h2>
+          <p>Mon-Fri, 5am-10pm PT</p>
+          <p>Sat-Sun, 6am-9pm PT</p>
+        </div>
+        <div>
+          <h2><a>Help Center</a></h2>
+          <p>Find answers online anytime</p>
+        </div>
+      </div>
+    </div>
+    <div class="difference">
+      <h1>REI DIFFERENCE</h1>
+      <div id="percent">
+        <h1>100%</h1>
+        <h3>SATISFACTION GUARANTEED</h3>
+      </div>
+      <h3>GEAR & ADVICE YOU CAN TRUST</h3>
+    </div>
+    <div class="bottomFooter">
+      <div>
+        <p>Get REI apps for shopping & adventure</p>
+      </div>
+      <div id="icons">
+      </div>
+      <div class="bottomCenter">
+        <p> 2019 REcreational Equipment, Inc. All rights reserved. REI and the REI Co-op logo are trademarks of Recreational Equipment, Inc.</p>
+        <p id="links">
+          <a>Terms of Use</a>
+          <a>Privacy Policy</a>
+          <a>Interest Based Ads</a>
+          <a>Product Recalls</a>
+          <a>CA Transparency Act</a>
+        </p>
+        <p>REI Accessibility Statement</p>
+      </div>
+
+
+
+  </div>
+
+
+
+
+
+
+  </body>
+</html>

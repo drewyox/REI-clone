@@ -1,0 +1,333 @@
+body {
+  margin:auto;
+}
+$fontStyle: 'Roboto Condensed','Helvetica Neue',Helvetica,Arial,sans-serif;
+$outletFamily: "Plak Black", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+.nav {
+  width:100%;
+  #navBar{
+    margin:auto;
+    display:flex;
+    font-family: $fontStyle;
+    background-color: #2a2a2a;
+    color: #ccc;
+    font-size: 14px;
+    font-weight: lighter;
+    ul{
+      margin:auto;
+      width:50%;
+      display:flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      li {
+        justify-content: space-around;
+        padding:11px 8px 8px;
+        display:flex;
+      }
+    }
+  }
+  #searchLayer{
+    display: flex;
+    background-color: black;
+    margin:auto;
+    width:100%;
+    justify-content: flex-start;
+    #searchContent{
+      display: flex;
+      align-items: center;
+      margin-left: 26%;
+
+    }
+    img {
+      height: 90%;
+      float: left;
+      position: relative;
+      display: block;
+      margin-top: 7px;
+      margin-bottom:7px;
+
+    }
+    input{
+      margin-left: 45px;
+      margin-top: 15px;
+      margin-right: 17%;
+      width: 397px;
+      height: 45px;
+      background-color: #555;
+      border: none;
+    }
+    ul{
+      font-family: $fontStyle;
+      display:flex;
+
+      li {
+        color: #ccc;
+        font-size: 14px;
+        padding:11px 8px 8px;
+        display:flex;
+
+      }
+    }
+  }
+  .headerCol {
+    display:flex;
+    flex-direction: column;
+  }
+  #searchBar {
+    a {
+      color: #ccc;
+      text-decoration: none;
+      font-family: $fontStyle;
+      padding: 5px;
+
+    }
+  }
+  .popUp {
+    display: flex;
+    background-image: url('https://www.rei.com/assets/drsp/membership/member-rewards/2018/swb/swb/live.jpg');
+    height: 40px;
+    width: 100%;
+    margin-top: 0;
+    align-items: center;
+    justify-content: center;
+    p {
+      margin: 0;
+      font-family: $fontStyle;
+      color: black;
+      font-size: 16px;
+    }
+
+  }
+
+}
+
+
+.saleBanner {
+  background-color: #efeee2;
+  position: relative;
+
+  .backgroundStars {
+    width: 100%;
+  }
+  .saleImage {
+    top: calc(50% - 146px);
+    left: calc(50% - 303px);
+    position: absolute;
+    // position: ;
+
+
+  }
+}
+
+.saleItems {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-right: 10%;
+  margin-left: 10%;
+
+  .items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 283.98px;
+    width: 240px;
+    margin-top: 35px;
+    text-align: center;
+    p {
+      font-family: $fontStyle;
+      color: #222;
+
+    }
+    img {
+      height: 159.98px;
+      width: auto;
+    }
+  }
+}
+
+
+
+
+.outlet {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left:auto;
+  margin-right:auto;
+  .reiOutlet {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    margin-left:10%;
+    margin-right:10%;
+    #redJacket {
+      width:340px;
+      height: 255px;
+      margin-right: 30px;
+    }
+
+    .text {
+      display: flex;
+      flex-direction: column;
+      color: #00718D;
+      font-size: 1.25vw;
+      font-family: $fontStyle;
+      h2 {
+        font-family: "Pressura",Consolas,monaco,monospace;
+        font-weight: 500;
+      }
+      img {
+        display: flex;
+        justify-content: flex-start;
+        object-fit:cover;
+        object-position: 0 5%;
+        height: 48px;
+        width: 299px;
+      }
+      #reiBtn {
+        width:179.5px;
+        height:42px;
+        background-color: #00718D;
+        border-radius:2px;
+        font-family:$fontStyle;
+        color: #fff;
+        font-size: 16px;
+        font-weight:200;
+
+      }
+    }
+  }
+  .outletSection{
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 50px;
+    height: 405px;
+    justify-content: flex-start;
+    font-family: $fontStyle;
+    font-weight: 400;
+    h1 {
+      font-family: $outletFamily;
+    }
+    .otltBtn {
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      width:180px;
+      height:50px;
+      border: 1px solid #c5c5c5;
+      font-size: 16px;
+    }
+    img {
+      height:405px;
+      width:540px;
+    }
+  }
+  #travel {
+    display: flex;
+    flex-direction: row;
+    img{
+      display: flex;
+      justify-content: flex-start;
+      margin-right: 50px;
+    }
+    #kilText {
+      width:540px;
+      display: flex;
+      text-align: left;
+      align-items: center;
+      flex-direction:column;
+      justify-content: center;
+    }
+  }
+  #skiing {
+    display:flex;
+    flex-direction:row;
+    img{
+      display:flex;
+      justify-content: flex-end;
+      margin-left:50px;
+    }
+    #skiText {
+      margin-left: 20px;
+      width:540px;
+      align: left;
+      display: flex;
+      align-items: center;
+      flex-direction:column;
+      justify-content: center;
+    }
+
+  }
+
+  #orderOnline {
+    font-family: $outletFamily;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    margin-top: 3%;
+    h2 {
+      font-weight: 900;
+      font-size: 30px;
+    }
+  }
+}
+
+.trendingNow {
+  h2 {
+
+  }
+  .trending {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    .trendingItems {
+      width: 225.75px;
+      height: 275.312px;
+      img {
+        width: 140px;
+        height: auto;
+      }
+      h3 {
+        display: flex;
+        align-items: baseline;
+
+      }
+    }
+  }
+}
+
+.categories {
+  display: flex;
+  width:100%;
+  flex-direction: column;
+  #upperRow {
+    display: flex;
+    flex-direction: row;
+  }
+  #lowerRow{
+    display: flex;
+    flex-direction: row;
+  }
+  .brandNames{
+    display: flex;
+    flex-direction: row;
+    .top-categories{
+      margin-right:25%;
+      display: flex;
+      flex-direction: column;
+      width:25%;
+    }
+    .brands-we-love{
+      margin-right:25%;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
